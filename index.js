@@ -9,7 +9,7 @@ const courseRoutes = require('./routes/courseRoutes');
 // we create an app variable that stores results of the express function that initializes our express applciation and allow to access different methods that will make backend creation easy
 const app = express();
 
-mongoose.connect('mongodb+srv://admin:leiganda2003@sandbox.1k0pz7g.mongodb.net/an22_sample_database?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:admin123@sandbox.1k0pz7g.mongodb.net/an22_sample_database?retryWrites=true&w=majority', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true
 })
